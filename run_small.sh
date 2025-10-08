@@ -18,7 +18,7 @@ arch=cpu_intel_d
 
 for method in openmp 
 do
-../compile.${arch}/main_turb.x \
+../compile.${arch}/main_acdrag.x \
   --case-in /scratch/rma1/acdrag/data_small \
   --verbose  --diff  \
   --nproma 32        \

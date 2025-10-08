@@ -8,9 +8,6 @@ SUBROUTINE ACDRAG (YDCST, YDML_PHY_MF,KIDIA,KFDIA,KLON,KTDIA,KLEV,&
  ! - OUTPUT 2D .
  & PSTRDU,PSTRDV,PRAPTRAJ)
 
-!$ACDC singlecolumn 
-!$ACDC manyblocks --max-statements-per-parallel=20
-
 !**** *ACDRAG * - EFFET DES ONDES DE GRAVITE OROGRAPHIQUES.
 
 !     Sujet.
